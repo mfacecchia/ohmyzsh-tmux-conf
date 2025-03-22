@@ -128,7 +128,7 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Better `ls`
-alias ls="eza --color=always --long --no-filesize --icons=always --no-time --no-user --no-permissions"
+alias ls="eza --color=always --all --long --no-filesize --icons=always --no-time --no-user --no-permissions"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
