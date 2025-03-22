@@ -133,9 +133,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+# Utility scripts for all uses
+alias genSecret="node -e \"console.log(require('crypto').randomBytes(32).toString('hex'))\""
 alias db_connect="/Applications/XAMPP/xamppfiles/bin/mysql -u root"
 alias pgdb_start="postgres -D /usr/local/opt/postgresql@17";
 
-alias genSecret="node -e \"console.log(require('crypto').randomBytes(32).toString('hex'))\""
 export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
 
