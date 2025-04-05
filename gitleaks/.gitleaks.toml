@@ -1,6 +1,8 @@
 # Custom gitleaks configuration file.
 # This file adds support for committed .env files (except for .env.sample)
 
+# For more information consult the project's GitHub repository https://github.com/gitleaks/gitleaks
+
 # Title for the gitleaks configuration file.
 title = "Feis' GitLeaks config"
 

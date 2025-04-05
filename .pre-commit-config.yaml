@@ -2,6 +2,7 @@
 # Use this file as a sample for all your repositories to avoid secrets exposure
 #
 # You may want to run `pre-commit autoupdate` to update gitleaks to the latest version
+# For more information consult the project's GitHub Repo https://github.com/pre-commit/pre-commit
 repos:
   - repo: https://github.com/gitleaks/gitleaks
     rev: v8.24.2
