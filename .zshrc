@@ -139,4 +139,5 @@ alias db_connect="/Applications/XAMPP/xamppfiles/bin/mysql -u root"
 alias pgdb_start="postgres -D /usr/local/opt/postgresql@17";
 
 export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
-
+# Gitleaks custom configuration file (you can find this file under the ./gitleaks directory)
+export GITLEAKS_CONFIG="$HOME/.config/gitleaks/.gitleaks.toml"
