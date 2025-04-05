@@ -1,0 +1,9 @@
+# Leaks checker pre-commit configuration file.
+# Use this file as a sample for all your repositories to avoid secrets exposure
+#
+# You may want to run `pre-commit autoupdate` to update gitleaks to the latest version
+repos:
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.24.2
+    hooks:
+      - id: gitleaks
