@@ -137,10 +137,18 @@ export NVM_DIR="$HOME/.nvm"
 alias gen_secret="node -e \"console.log(require('crypto').randomBytes(32).toString('hex'))\""
 alias db_connect="/Applications/XAMPP/xamppfiles/bin/mysql -u root"
 alias pgdb_start="postgres -D /usr/local/opt/postgresql@17";
-alias setup_gitignore="curl https://www.toptal.com/developers/gitignore/api/macos,windows,linux,intellij,visualstudiocode >> .gitignore"
-alias setup_precommit="pre-commit install
+
+# Creates a directory and sets it as CWD
+mkcd() {
+  mkdir $1 && cd $1
+}
+
+# Some git-related setup commands
+alias gitignore_setup="curl https://www.toptal.com/developers/gitignore/api/macos,windows,linux,intellij,visualstudiocode >> .gitignore"
+alias precommit_setup="pre-commit install
     curl https://raw.githubusercontent.com/mfacecchia/ohmyzsh-tmux-conf/refs/heads/main/.pre-commit-config.yaml >> .pre-commit-config.yaml
     pre-commit autoupdate"
 
 export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
 export GITLEAKS_CONFIG="$HOME/.config/gitleaks/.gitleaks.toml"
+
