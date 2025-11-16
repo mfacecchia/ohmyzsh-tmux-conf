@@ -1,2 +1,2 @@
 # ohmyzsh-tmux-conf
-Config files for OhMyZsh + Tmux (using iTerm2 btw)
+Config files for OhMyZsh + Tmux
