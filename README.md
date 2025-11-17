@@ -1,2 +1,2 @@
-# ohmyzsh-tmux-conf
-Config files for OhMyZsh + Tmux
+# zsh-conf
+Config files for zsh
