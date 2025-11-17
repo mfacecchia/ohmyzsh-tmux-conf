@@ -43,7 +43,6 @@ title="FeisTTY ._."
 # More info here => https://ghostty.org/docs/config/reference#macos-option-as-alt
 # macos-option-as-alt=true|false|right|left
 
-macos-icon=xray
 confirm-close-surface=false
 
 input="fastfetch\n"
