@@ -35,7 +35,7 @@ mkcd() {
 # Some git-related setup commands
 alias gitignore_setup="curl https://www.toptal.com/developers/gitignore/api/macos,windows,linux,intellij,visualstudiocode,eclipse >> .gitignore"
 alias precommit_setup="pre-commit install
-    curl https://raw.githubusercontent.com/mfacecchia/ohmyzsh-tmux-conf/refs/heads/main/.pre-commit-config.yaml >> .pre-commit-config.yaml
+    curl https://raw.githubusercontent.com/mfacecchia/zsh-conf/refs/heads/main/.pre-commit-config.yaml >> .pre-commit-config.yaml
     pre-commit autoupdate"
 
 export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
